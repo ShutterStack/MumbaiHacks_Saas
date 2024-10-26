@@ -1,0 +1,57 @@
+.userpage-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 30%; /* Set sidebar width to 30% */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .profile-container {
+    width: 70%; /* Set profile container width to 70% */
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start */
+  }
+  
+  .add-project-container {
+    margin-top: 20px;
+    margin-left: auto; /* Shift to the right */
+    margin-right: 0; /* Reset right margin */
+    padding: 20px; /* Optional: add padding for aesthetics */
+  }
+  
+  .add-project-container form {
+    display: flex; /* Use flexbox for form elements */
+    align-items: center; /* Center align items vertically */
+  }
+  
+  .add-project-container input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc; /* Add border for input */
+  }
+  
+  .add-project-container button {
+    padding: 10px;
+  }
+  
+  .projects-list {
+    margin-top: 20px;
+  }
+  
+  .project-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  

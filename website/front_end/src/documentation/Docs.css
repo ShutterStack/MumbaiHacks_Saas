@@ -1,0 +1,5 @@
+/* Add to your CSS file */
+.blocknote-view {
+  font-size: 18px !important; /* Override font size if necessary */
+  line-height: 1.5 !important; /* Increase line height for better readability */
+}
