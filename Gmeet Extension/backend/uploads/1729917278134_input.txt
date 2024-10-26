@@ -1,0 +1,21 @@
+Problem statement: 
+Design a CGAN generative model that can generate the few fake images from the provided data. Use the CIFAR-10 dataset to train a Conditional GAN. Take user input for class type and generate images of the specified class type using the Conditional GAN.
+
+Data set description:
+The CIFAR-10 dataset is a popular image dataset with following attributes. 
+
+Total No. of Images: 60000 
+
+Color Images: Yes (RGB) 
+
+Image Size: 32x32 
+
+Number of classes: 10 classes (6000 images per class)
+
+There are 50000 training images and 10000 test images.
+
+The 10 classes are: 
+
+airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck
+
+The CIFAR-10 dataset is available as a part of tensorflow-keras datasets module. Below code can be used to load the CIFAR-10 dataset.
